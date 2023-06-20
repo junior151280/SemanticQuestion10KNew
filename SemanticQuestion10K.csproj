@@ -12,16 +12,9 @@
     <PackageReference Include="BlingFireNuget" Version="0.1.8" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="0.16.230615.1-preview" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.Memory.Qdrant" Version="0.16.230615.1-preview" />
     <PackageReference Include="System.Linq.Async" Version="6.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Microsoft.SemanticKernel">
-      <HintPath>..\semantic-kernel-main\dotnet\src\SemanticKernel\bin\Debug\netstandard2.1\Microsoft.SemanticKernel.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.SemanticKernel.Connectors.Memory.Qdrant">
-      <HintPath>..\semantic-kernel-main\dotnet\src\Connectors\Connectors.Memory.Qdrant\bin\Debug\netstandard2.1\Microsoft.SemanticKernel.Connectors.Memory.Qdrant.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>
